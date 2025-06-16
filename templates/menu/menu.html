@@ -1,0 +1,23 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block content %}
+    <!-- Menu de Navegação -->
+    <nav class="navigation-menu">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-cube minecraft-logo"></i>
+                <span>Mamaco Modpack</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link active" data-section="modpack">Modpack</a></li>
+                <li><a href="#" class="nav-link" data-section="tutorials">Tutoriais</a></li>
+                <li><a href="#" class="nav-link" data-section="downloads">Downloads</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+{% endblock %}
