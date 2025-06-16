@@ -1,0 +1,15 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block content %}
+    <!-- Menu de Navegação -->
+    {% include "menu/menu.html" %}
+
+    <!-- Seção Modpack -->
+    {% include "modpack/modpack.html" %}
+
+    <!-- Seção Tutoriais -->
+    {% include "construcaoReceita/construcaoReceita.html" %}
+
+    <!-- Seção Downloads -->
+    {% include "downloads/downloads.html" %}
+{% endblock %}
