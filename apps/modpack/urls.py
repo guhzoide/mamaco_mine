@@ -3,5 +3,5 @@ from django.urls import path
 from apps.modpack.views import modpack
 
 urlpatterns = [
-    path('/modpack', modpack, name='modpack'),
+    path('modpack', modpack, name='modpack'),
 ]
